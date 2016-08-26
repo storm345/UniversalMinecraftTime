@@ -1,0 +1,4 @@
+name: UniversalMCTime
+author: 'storm345'
+main: org.stormdev.mc.universaltime.UniversalTime
+version: 1.0
