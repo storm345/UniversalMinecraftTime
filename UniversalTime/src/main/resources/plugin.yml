@@ -2,3 +2,11 @@ name: UniversalTime
 author: 'storm345'
 main: org.stormdev.mc.universaltime.UniversalTime
 version: 1.0
+commands:
+    timesync:
+        description: Sync the server time
+        aliases: [timereset]
+        permission: universaltime.sync
+        permission-message: No perms!
+        usage: /<command>
+        default: op
